@@ -26,9 +26,9 @@ def restart():
     turtle.reset()
 
 turtle.shape("turtle")
-turtle.onkeypress(drunken_up_move,"w")
-turtle.onkeypress(drunken_right_move,"d")
-turtle.onkeypress(drunken_left_move,"a")
-turtle.onkeypress(drunken_down_move,"s")
+turtle.onkeypress(drunken_up_move,"Up")
+turtle.onkeypress(drunken_right_move,"Right")
+turtle.onkeypress(drunken_left_move,"Left")
+turtle.onkeypress(drunken_down_move,"Down")
 turtle.onkeypress(restart,"Escape")
 turtle.listen()
